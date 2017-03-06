@@ -1,8 +1,8 @@
 <html ng-app="lesson2">
-
 <head>
     <title>lesson2</title>
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.css"
+     rel="stylesheet">
     <link href="/content/css/default.css" rel="stylesheet" />
     <script src="/node_modules/angular/angular.js">
     </script>
@@ -11,7 +11,6 @@
     <script src="questions.js"></script>
     <script src="/controllers/index.js"></script>
 </head>
-
 <body>
     <div class="wordsPanel" ng-controller="index">
         <div class="starting">
@@ -20,7 +19,6 @@
                     英语测试</li>
             </ul>
             <ul class="list-group" ng-if="step==1">
-
                 <li class="list-group-item title">
                     习题{{10-questions.length}}/10</li>
                 <li class="list-group-item answer">
@@ -47,5 +45,4 @@
         </div>
     </div>
 </body>
-
 </html>
