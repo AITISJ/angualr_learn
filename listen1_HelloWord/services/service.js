@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
     pathName = "/index.html";
   }
   var filePath = __dirname + pathName;
-  filePath=filePath.replace('\\services','');
+  filePath=filePath.replace('\\services','').replace('/services','');
 
   res.statusCode = 200;
   switch (path.extname(pathName)) {
