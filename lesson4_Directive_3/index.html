@@ -1,0 +1,22 @@
+<html ng-app="lesson3">
+
+<head>
+    <title>产品摘要</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <link href="/content/css/default.css" rel="stylesheet" />
+    <script src="/node_modules/angular/angular.js">
+    </script>
+    <script src="app.js"></script>
+    <script src="controllers/index.js"></script>
+    <script src="directives/product.js"></script>
+    <script src="directives/newBook.js"></script>
+</head>
+
+<body ng-controller="index">
+    <product info="products[0]">
+    </product>
+    <product info="products[1]" new-book>
+    </product>
+</body>
+
+</html>
