@@ -5,7 +5,8 @@ margin: 0px;
 
 .product{
     padding: 0px;
-    height: 120px;
+    padding-top:15px; 
+    height: 150px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -65,4 +66,9 @@ margin: 0px;
    background-position-x: 98%;
    background-repeat: no-repeat;
    background-size: 25px 25px;
+}
+
+.originalPrice{
+    font-size:12px;
+    margin-top: 10px;
 }
